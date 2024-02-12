@@ -1,0 +1,11 @@
+.contact {
+    display: flex;
+    min-height: 500px ;
+    justify-content: center;
+    align-items: center;
+    margin-block: 5rem;
+}
+
+.contact input {
+    margin: 2rem;
+}

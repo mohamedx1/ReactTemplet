@@ -1,0 +1,11 @@
+.about{
+    display: flex !important;
+
+}
+
+.about-hiding {
+    text-align: center;
+    color: white;
+    display: flex;
+
+}

@@ -1,0 +1,48 @@
+.main-div {
+    background-color: var(--mainColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-div {
+    width: 400px;
+    padding: 4rem;
+    margin-top: 4rem;
+}
+
+.mian-hiding-home {
+    color: white;
+    width: fit-content;
+    position: relative;
+    margin-bottom: 5rem;
+
+}
+
+.mian-hiding-home ::after {
+    content: '\f005';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50% , -20%);
+    background-color: var(--mainColor);
+    padding: 1rem;
+    /* z-index: -1; */
+}
+.mian-hiding-home ::before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: white;
+    margin-top: 5%;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* z-index: -2; */
+}

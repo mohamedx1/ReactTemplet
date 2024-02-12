@@ -1,0 +1,60 @@
+.mian-hiding {
+    color: var(--scoundry-cloor);
+    width: fit-content;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.mian-hiding ::after {
+    content: '\f005';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50% , -20%);
+    background-color: white;
+    padding: 1rem;
+    /* z-index: -1; */
+}
+.mian-hiding ::before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: var(--scoundry-cloor);
+    margin-top: 5%;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* z-index: -2; */
+}
+
+.port-img  {
+    position: relative;
+}
+
+.port-img .port-layer {
+    position: absolute;
+    background-color: var(--mainColorAlpha);
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+.port-img :hover {
+    opacity: 1;
+}

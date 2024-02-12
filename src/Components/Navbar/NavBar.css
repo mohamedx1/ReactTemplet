@@ -1,0 +1,16 @@
+
+.my-navbar {
+    background-color: var(--scoundry-cloor) !important;
+}
+.my-navbar a {
+    color: white;
+}
+.my-navbar li a  {
+    color: white !important;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    background-color: var(--mainColor) !important;
+}
