@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="col-md-4">
                             <div className="location">
                                 <h4 className=" text-uppercase fs-2">Location</h4>
-                                <span>2215 John Daniel Drive</span>
+                                <span>John Daniel Drive</span>
                                 <br />
                                 <span>Clark, MO 65243</span>
                             </div>
