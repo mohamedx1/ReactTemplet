@@ -5,7 +5,7 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-sm my-navbar p-4 mb-2 fixed-top ">
+            <nav className="navbar navbar-expand-sm my-navbar p-4 mb-4 fixed-top ">
                 <div className="container">
                     <NavLink className="navbar-brand  fs-1" to="/">START FRAMEWORK</NavLink>
                     <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
